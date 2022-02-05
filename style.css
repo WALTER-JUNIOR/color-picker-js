@@ -23,13 +23,13 @@
     padding: 10px;
 }
 
-#ColorInput, #ColorOutput{
+#colorInput, #colorOutput{
     width: 50%;
     height: 45px;
     border-radius: 5px;
     cursor: pointer;
 }
-#ColorOutput{
+#colorOutput{
     border: solid 1px black;
     height: 150px;
     margin: 10px;

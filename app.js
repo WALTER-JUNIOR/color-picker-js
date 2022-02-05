@@ -1,10 +1,10 @@
 const btnColor = document.getElementById("btnColor")
-const ColorInput = document.getElementById("ColorInput")
+const colorInput = document.getElementById("colorInput")
 const colorExa = document.querySelector(".colorExa")
-const ColorOutput = document.getElementById("ColorOutput")
+const colorOutput = document.getElementById("colorOutput")
 
 btnColor.addEventListener("click", () => {
-    colorExa.textContent = ColorInput.value
-    ColorOutput.style.backgroundColor =  ColorInput.value
+    colorExa.textContent = colorInput.value
+    colorOutput.style.backgroundColor =  colorInput.value
 });
 
